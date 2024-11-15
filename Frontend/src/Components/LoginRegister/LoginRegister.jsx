@@ -6,6 +6,7 @@ import Login from "../Login/Login";
 import Register from "../Register/Register";
 function LoginRegister() {
   const [addClass, setAddClass] = useState("");
+  const [boxClose,setBoxClose] = useState("")
   const showRegister = () => {
     setAddClass("active");
   };
@@ -13,22 +14,23 @@ function LoginRegister() {
     setAddClass("");
   };
   const closeBox=()=>{
-    alert("wgf")
+
+    setBoxClose(true)
   }
   return (
-    <>
-      <section
+    <>{
+      !boxClose?(<section
         className=" container-fluid position-fixed vh-100 top-0 bg-white login-register text-white py-2 z-3"
         style={{ left: "50%" }}
       >
         <div className="row">
           <div className="col-md-6">
-          <span onClick={closeBox} className="border border-danger" style={{zIndex:"999"}}><FontAwesomeIcon icon={faXmark}/></span>
+          <span onClick={closeBox} style={{zIndex:"999"}}><FontAwesomeIcon icon={faXmark}/></span>
           </div>
         
           {/* Login */}
           <div
-            className={`login-box ${addClass}    col-md-6 p-0 position-absolute border border-danger`}
+            className={`login-box ${addClass}    col-md-6 p-0 position-absolute `}
       
           >
             <div className="w-100  logo d-flex justify-content-between px-3 pt-2"></div>
@@ -76,7 +78,9 @@ function LoginRegister() {
           </div>
           {/* Register End */}
         </div>
-      </section>
+      </section>):(null)
+    }
+      
     </>
   );
 }

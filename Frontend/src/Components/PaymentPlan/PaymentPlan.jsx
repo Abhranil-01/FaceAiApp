@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import PaymentCard from '../PaymentCard/PaymentCard'
-import data from "../../db.json"
 import './paymentplan.css'
 function PaymentPlan() {
 

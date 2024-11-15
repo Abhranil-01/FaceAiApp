@@ -8,8 +8,10 @@ import LoginRegister from "../LoginRegister/LoginRegister";
 
 
 function Navbar() {
+  const [boxOpen,setBoxOpen]=useState(false)
   const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
+  const openLoginBox = () => setBoxOpen((prev) => !prev);
+
   const closeMenu = () => setClick(false);
 
   return (
@@ -119,11 +121,11 @@ function Navbar() {
                   onClick={closeMenu}
                   className="nav-link"
                 >
-                  Plan
+                  Plans
                 </Link>
               </li>
 
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   to="contact"
                   spy={true}
@@ -135,11 +137,13 @@ function Navbar() {
                 >
                   Contact Me
                 </Link>
-              </li>
+              </li> */}
             </ul>
-            <NavLink  className="login-button" >Login</NavLink>
-            <div></div>
-            {/* <LoginRegister/> */}
+            <button  className="login-button " onClick={openLoginBox} >Login</button>
+                {
+                  boxOpen && <LoginRegister/>
+                }
+        
           </div>
         </div>
       </div>

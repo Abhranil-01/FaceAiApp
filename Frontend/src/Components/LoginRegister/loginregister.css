@@ -3,10 +3,14 @@
 }
  .login-box{
     right: 50%;
-
+    height: 80vh;
+    top: 10%;
 }
 .register-box{
     right: 0%;
+    height: 60vh;
+    top: 10%;
+
   
 } 
 .login-box.active{
