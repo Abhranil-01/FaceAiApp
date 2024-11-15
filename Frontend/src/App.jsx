@@ -16,7 +16,7 @@ function App() {
      <AboutMe/>
 
      <PaymentPlan/>
-     <ContactMe/>
+  
      <Footer/>
 
     </>

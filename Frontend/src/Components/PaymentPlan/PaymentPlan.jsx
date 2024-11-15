@@ -7,7 +7,7 @@ function PaymentPlan() {
 
   return (
     <>
-      <section className='container-fluid payment ' id="projects" style={{paddingTop:"100px"}}>
+      <section className='container-fluid payment py-5 ' id="projects" style={{paddingTop:"100px"}}>
         <h1 className='text-center mb-5'>Plans</h1>
         <div className="row">
         <PaymentCard/>
