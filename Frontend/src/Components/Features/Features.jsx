@@ -10,7 +10,7 @@ function Features() {
   return (
     <>
       <section className="container-fluid features  py-5  " id="skills">
-        <h1 className="text-white text-center">Features</h1>
+        <h1 className="text-white text-center fw-bold ">Features</h1>
         <div className="row">
           <FeatureCard
           img="\Images\My image\12e8a6a547e317524121f7a5d6084036.gif"
