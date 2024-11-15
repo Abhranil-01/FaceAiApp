@@ -1,0 +1,59 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "skill": "HTML",
+      "img": "/Images/Skills/html-1.svg"
+    },
+    {
+      "id": 2,
+      "skill": "CSS",
+      "img": "/Images/Skills/css-3.svg"
+    },
+    {
+      "id": 3,
+      "skill": "SASS",
+      "img": "/Images/Skills/sass-1.svg"
+    },
+    {
+      "id": 4,
+      "skill": "Bootstrap",
+      "img": "/Images/Skills/bootstrap-5-logo-icon.svg"
+    },
+    {
+      "id": 5,
+      "skill": "JavaScript",
+      "img": "/Images/Skills/javascript-1.svg"
+    },
+    {
+      "id": 6,
+      "skill": "React JS",
+      "img": "/Images/Skills/react.svg"
+    },
+    {
+      "id": 7,
+      "skill": "Webpack",
+      "img": "/Images/Skills/webpack.png"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "projectName": "Weather App",
+      "img": "/Images/Project/WeatherApp.png",
+      "description": "I developed a responsive weather app using HTML, SASS, JavaScript, Webpack fetching data from a weather API. The app features dynamic search and displays weather details for the user's current city and country upon location access approval. It shows the actual temperature, max and min temperatures, humidity, wind speed, and visibility. This app empowers users with real-time weather information, aiding in better planning and decision-making based on current weather conditions.",
+      "gitlink":"https://github.com/Abhranil-01/Weather-App.git",
+      "websitelink":"https://climatecare.netlify.app",
+      "technologies":"HTML, SASS, JavaScript, Webpack Weather API"
+    },
+    {
+      "id": 2,
+      "projectName": "Ecommerce App",
+      "img": "/Images/Project/E-CommerceApp.png",
+      "description": "I developed a responsive sports-related e-commerce website using React js, Redux Toolkit, SCSS, Bootstrap, and Strapi as the backend. The website features user authentication for login and registration, product search and filtering, and an add-to-cart functionality. Users can set their addresses and place orders seamlessly. Additionally, the platform includes a rating system and allows users to write reviews and give ratings for products, enhancing the overall shopping experience.",
+      "gitlink":"https://github.com/Abhranil-01/E-Commerce.git",
+      "websitelink":"https://dsport.vercel.app/",
+      "technologies":" SASS, Bootstrap, React JS, Redux Toolkit, Strapi"
+    }
+  ]
+}

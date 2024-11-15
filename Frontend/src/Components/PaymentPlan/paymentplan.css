@@ -1,0 +1,9 @@
+.payment{
+    background-image: radial-gradient(circle, #01051d, #0b0116, #0d000e, #090005, #000000);
+}
+.payment h1{
+    font-weight: bold;
+    /* color: #d897f7;  */
+    color: white !important;
+    
+}

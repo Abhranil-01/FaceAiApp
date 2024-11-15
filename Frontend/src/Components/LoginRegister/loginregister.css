@@ -1,0 +1,17 @@
+.login-register{
+    background-image: linear-gradient(to top, #03122a, #03163b, #11174b, #281359, #410562);
+}
+ .login-box{
+    right: 50%;
+
+}
+.register-box{
+    right: 0%;
+  
+} 
+.login-box.active{
+    right: -0%;
+}
+.register-box.active{
+    right: 50%;
+}

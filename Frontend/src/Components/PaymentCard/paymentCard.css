@@ -1,0 +1,14 @@
+.card{
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.pay-button{
+    background-image: linear-gradient(to left, #124ea8, #4452bf, #7052d3, #9d4ce1, #cb3eea);
+    color: white;
+    border: 0;
+    padding: 6px 30px;
+}

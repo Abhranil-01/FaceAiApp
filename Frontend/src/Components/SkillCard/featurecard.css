@@ -1,0 +1,15 @@
+.feature-card{
+  height: 30rem;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  cursor: pointer;
+  text-align: justify;
+
+}
+/* .feature-card :hover{
+  box-shadow: 0 8px 28px 0 rgba( 31, 38, 136, 0.37 );
+} */

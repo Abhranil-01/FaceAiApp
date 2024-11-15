@@ -1,0 +1,42 @@
+footer {
+  background-image: linear-gradient(
+    to top,
+    #000000,
+    #100006,
+    #180010,
+    #1c0019,
+    #1c0023,
+    #1d032e,
+    #1b063a,
+    #130a48,
+    #170c58,
+    #1a0f69,
+    #1e117a,
+    #22138b
+  );
+}
+.nav-item {
+  color: rgb(253, 250, 250);
+  cursor: pointer;
+}
+
+.nav-item::before {
+  content: "";
+  color: white;
+  width: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+footer ul {
+  display: table-cell;
+  position: relative;
+}
+
+footer ul li {
+  color: white;
+  position: relative;
+  font-size: 18px;
+}
